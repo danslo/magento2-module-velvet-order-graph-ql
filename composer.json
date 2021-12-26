@@ -1,0 +1,19 @@
+{
+    "name": "danslo/magento2-module-velvet-order-graph-ql",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Daniel Sloof",
+            "email": "daniel@rubic.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Danslo\\VelvetOrderGraphQl\\": ""
+        }
+    },
+    "require": {}
+}
