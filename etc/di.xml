@@ -13,6 +13,7 @@
         <arguments>
             <argument name="schemaType" xsi:type="string">VelvetGridOrder</argument>
             <argument name="tableName" xsi:type="string">sales_order_grid</argument>
+            <argument name="generateInputType" xsi:type="boolean">false</argument>
         </arguments>
     </virtualType>
 
