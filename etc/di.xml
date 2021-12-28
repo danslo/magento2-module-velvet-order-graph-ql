@@ -12,7 +12,9 @@
     <virtualType name="Danslo\VelvetOrderGraphQl\Model\GraphQl\TableReader\Order" type="Danslo\VelvetGraphQl\Model\GraphQl\TableReader">
         <arguments>
             <argument name="schemaType" xsi:type="string">VelvetGridOrder</argument>
-            <argument name="tableName" xsi:type="string">sales_order_grid</argument>
+            <argument name="tableNames" xsi:type="array">
+                <item name="sales_order_grid" xsi:type="string">sales_order_grid</item>
+            </argument>
             <argument name="generateInputType" xsi:type="boolean">false</argument>
         </arguments>
     </virtualType>
